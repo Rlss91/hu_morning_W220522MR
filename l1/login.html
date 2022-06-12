@@ -8,7 +8,7 @@
   </head>
   <body>
     <h1>Login page</h1>
-    <form action="" method="get">
+    <form>
       <div>
         <label for="emailInputId">Email:</label>
         <input
@@ -17,11 +17,17 @@
           id="emailInputId"
           autofocus
           autocomplete="on"
+          required
         />
       </div>
       <div>
         <label for="passwordInputId">Password:</label>
-        <input type="password" name="passwordInputName" id="passwordInputId" />
+        <input
+          type="password"
+          name="passwordInputName"
+          id="passwordInputId"
+          required
+        />
       </div>
       <button>click me</button>
     </form>
