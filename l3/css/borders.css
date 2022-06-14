@@ -1,0 +1,7 @@
+img {
+  border-radius: 1rem;
+}
+
+.only-1-corner {
+  border-top-right-radius: 5rem;
+}
