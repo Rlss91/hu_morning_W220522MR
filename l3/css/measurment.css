@@ -1,0 +1,18 @@
+img {
+  width: 20%;
+}
+
+.div1 {
+  background-color: blue;
+  padding: 1rem;
+}
+.div2 {
+  background-color: green;
+  padding: 1rem;
+}
+
+.div3 {
+  background-color: darkslategray;
+  width: 50vw;
+  height: 50vh;
+}
