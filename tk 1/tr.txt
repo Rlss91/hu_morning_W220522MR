@@ -1,0 +1,13 @@
+1) index.html
+    1. title - center, background color, shadow, color
+    2. subtitle - center, background color, shadow, color
+    3. nav
+        3 links to other websites
+            .com/ red
+            .net/ green
+            .il/ blue
+    4. 5 paragrafs
+        1. each paragraph need border
+        2. each paragraph need padding
+        3. between each paragraph margin .3rem only in bottom
+    dont use px!!!
