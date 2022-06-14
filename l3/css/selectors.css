@@ -1,0 +1,36 @@
+h1 {
+  background-color: black;
+}
+
+.bg-c-black {
+  background-color: black;
+  color: white;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.div-borders {
+  border: solid 1px black;
+}
+
+.all-green-container {
+  background-color: blue;
+}
+
+.all-green-container > span {
+  background-color: green;
+}
+
+/* .plus + span {
+  background-color: moccasin;
+} */
+
+.plus ~ span {
+  background-color: moccasin;
+}
+
+#emailInput {
+  background-color: aqua;
+}

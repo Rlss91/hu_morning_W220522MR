@@ -1,0 +1,24 @@
+/* check from the begginning */
+a[href^="https://"]
+{
+  background-color: blue;
+}
+
+img {
+  border: 5px solid black;
+}
+
+/* check from the end */
+img[src$=".png"] {
+  border: 5px solid yellow;
+}
+
+/* only this text */
+a[href="index.html"] {
+  background-color: tan;
+}
+
+/* contains */
+a[href*="ou"] {
+  background-color: darkseagreen;
+}
