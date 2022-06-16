@@ -1,0 +1,13 @@
+h1 {
+  background-color: peachpuff;
+  width: 70vw;
+}
+.nav-bar > a[href$=".html"] {
+  color: sandybrown;
+}
+.img1 {
+  width: 50%;
+  height: 30%;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 0.2rem 0.2rem #444;
+}
