@@ -1,0 +1,33 @@
+img {
+  width: 2rem;
+}
+
+.small-image {
+  width: 2rem;
+  height: 2rem;
+}
+
+.big-image {
+  width: 4rem;
+}
+
+.img1 {
+  display: flex;
+  justify-content: center;
+}
+
+.img2 {
+  display: flex;
+  justify-content: left;
+}
+
+.img3 {
+  display: flex;
+  justify-content: right;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
