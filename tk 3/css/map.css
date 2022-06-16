@@ -1,0 +1,9 @@
+.map-img {
+  height: 1500px;
+}
+.marker {
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  width: 50px;
+}
