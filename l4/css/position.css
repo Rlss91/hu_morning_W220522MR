@@ -1,0 +1,23 @@
+.footer-style {
+  position: fixed;
+  background-color: red;
+  bottom: 0;
+}
+.nav-style {
+  position: sticky;
+  top: 0;
+  background-color: red;
+}
+.chat-style {
+  position: fixed;
+  right: 2.5rem;
+  bottom: 2.5rem;
+}
+.chat-style > img {
+  width: 3rem;
+}
+.absolut-style {
+  background-color: lightslategray;
+  position: absolute;
+  top: 2rem;
+}
