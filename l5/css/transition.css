@@ -1,0 +1,10 @@
+.img {
+  width: 50%;
+  opacity: 1;
+  /* looking for changes of properties  */
+  transition: width 2s, opacity 2s;
+}
+.img:hover {
+  opacity: 0;
+  width: 70%;
+}
