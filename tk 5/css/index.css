@@ -1,0 +1,22 @@
+/* #emailInput:valid {
+  outline: none;
+  border: 3px solid green;
+} */
+
+.login-wrapper > div {
+  margin-bottom: 0.5rem;
+}
+
+.login-wrapper > div > input:valid {
+  outline: none;
+  border: 3px solid green;
+}
+
+.login-wrapper > div > input:invalid {
+  outline: none;
+  border: 3px solid red;
+}
+
+.login-wrapper > div > input:focus {
+  background-color: blue;
+}
