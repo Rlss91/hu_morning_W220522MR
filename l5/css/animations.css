@@ -1,0 +1,30 @@
+@keyframes squery-animated {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    left: 99vw;
+    top: 0;
+  }
+  50% {
+    top: 99vh;
+    left: 99vw;
+  }
+  75% {
+    top: 99vh;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+.animated-div {
+  position: absolute;
+  background-color: dodgerblue;
+  animation-name: squery-animated; /* animation name */
+  animation-duration: 3s; /* how match time the animation will take */
+  animation-iteration-count: infinite; /* optional, how many times the animation will repeat */
+}
