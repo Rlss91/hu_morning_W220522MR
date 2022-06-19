@@ -1,8 +1,9 @@
 @keyframes jumping-bitcoin {
-  0% {
+  0%,
+  100% {
     transform: translate(0, 0);
   }
-  100% {
+  50% {
     transform: translate(0, 3rem);
   }
 }
