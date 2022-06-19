@@ -1,0 +1,7 @@
+.animated-btn {
+  background-color: transparent;
+  transition: background-color 3s;
+}
+.animated-btn:hover {
+  background-color: #427ac8;
+}
