@@ -4,15 +4,15 @@
     left: 0;
   }
   25% {
-    left: 99vw;
+    left: 97vw;
     top: 0;
   }
   50% {
-    top: 99vh;
-    left: 99vw;
+    top: 98vh;
+    left: 97vw;
   }
   75% {
-    top: 99vh;
+    top: 98vh;
     left: 0;
   }
   100% {
