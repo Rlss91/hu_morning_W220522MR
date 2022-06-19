@@ -2,9 +2,9 @@
   width: 50%;
   opacity: 1;
   /* looking for changes of properties  */
-  transition: width 2s, opacity 2s;
+  transition: width 2s ease-in, opacity 2s ease-out;
 }
 .img:hover {
-  opacity: 0;
+  opacity: 0.2;
   width: 70%;
 }
