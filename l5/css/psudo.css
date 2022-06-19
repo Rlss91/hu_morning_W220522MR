@@ -1,0 +1,40 @@
+.btn {
+  font-size: 3rem;
+  background-color: aquamarine;
+}
+
+/* when we hover on the element */
+.btn:hover {
+  background-color: darkslategray;
+  color: wheat;
+}
+
+/* when we press on the element */
+.btn:active {
+  background-color: darkorchid;
+}
+
+/* when we want to write on input element it will
+   get focus and this style will be untill we will
+   click on another element
+*/
+input:focus {
+  background-color: black;
+  color: #fff;
+}
+
+/* will apply style only on requerd fields */
+/* input:required {
+  background-color: red;
+  outline: none;
+} */
+
+/* will apply style only on invalid input */
+input:invalid {
+  background-color: red;
+}
+
+/* will apply style only on valid input */
+input:valid {
+  background-color: aqua;
+}
