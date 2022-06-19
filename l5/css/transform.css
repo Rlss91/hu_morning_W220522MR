@@ -1,0 +1,23 @@
+.translate-div {
+  /* will move the element x and y */
+  transform: translate(1rem, 1rem);
+}
+
+.scale-div > img {
+  width: 10rem;
+}
+
+.scale-div > img:hover {
+  /* scale will change the image size and orientation */
+  transform: scale(3, 3);
+  /* rotate the image 2d 0-360 deg */
+  transform: rotate(20deg);
+  /* increase the image size and rotate the image */
+  transform: scale(3, 3) rotate(20deg);
+}
+
+/*
+transform will not effect other tags
+this is the reason we will use transform for 
+animation
+*/
