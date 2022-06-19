@@ -1,0 +1,15 @@
+@keyframes jumping-bitcoin {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 3rem);
+  }
+}
+
+.bitcoin {
+  animation-name: jumping-bitcoin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
