@@ -1,0 +1,13 @@
+.galery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.galery-container > div > img {
+  width: 100%;
+}
+
+.galery-container > div > span {
+  position: relative;
+  top: 90%;
+}
