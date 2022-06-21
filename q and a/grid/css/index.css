@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.container > div {
+  font-size: 10rem;
+}
+
+.container > .first-child {
+  font-size: 20rem;
+}
