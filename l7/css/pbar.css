@@ -1,0 +1,22 @@
+.pbar-slider-background {
+  background-color: rgb(243, 81, 255);
+}
+
+.pbar-slider {
+  background-color: rgb(105, 77, 198);
+}
+
+.animate-slider {
+  animation: fill-clear-animation 3s ease infinite alternate;
+}
+
+@keyframes fill-clear-animation {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
