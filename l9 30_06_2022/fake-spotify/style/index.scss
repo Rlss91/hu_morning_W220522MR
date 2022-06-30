@@ -1,0 +1,23 @@
+$bg-color-nav: #000;
+$text-color-nav: #fff;
+
+.no-padding {
+  padding: 0;
+}
+.my-side-left-nav {
+  background-color: $bg-color-nav;
+  color: $text-color-nav;
+  height: 100vh;
+}
+.my-top-nav {
+  background-color: $bg-color-nav;
+  color: $text-color-nav;
+  padding: 1rem;
+}
+.card {
+  transition: background-color 1s;
+  padding: 0.2rem;
+  &:hover {
+    background-color: grey;
+  }
+}

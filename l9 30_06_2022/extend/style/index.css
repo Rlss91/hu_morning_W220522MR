@@ -1,0 +1,14 @@
+.text-effects, .text-effects2 {
+  color: brown;
+  background-color: brown;
+  border: #000000 solid 1px;
+  transition: background-color 2s;
+}
+.text-effects:hover, .text-effects2:hover {
+  background-color: white;
+}
+
+.text-effects2 {
+  border: #000000 solid 0;
+  box-shadow: 15px 10px 5px 2px #000000;
+}/*# sourceMappingURL=index.css.map */

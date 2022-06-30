@@ -1,0 +1,10 @@
+.my-hover {
+  transition: background-color 1s;
+}
+.my-hover:hover {
+  background-color: chocolate;
+}
+
+.text-color-red {
+  color: red;
+}/*# sourceMappingURL=index.css.map */

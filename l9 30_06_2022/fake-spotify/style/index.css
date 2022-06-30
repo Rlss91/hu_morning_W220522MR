@@ -1,0 +1,23 @@
+.no-padding {
+  padding: 0;
+}
+
+.my-side-left-nav {
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+}
+
+.my-top-nav {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+
+.card {
+  transition: background-color 1s;
+  padding: 0.2rem;
+}
+.card:hover {
+  background-color: grey;
+}/*# sourceMappingURL=index.css.map */

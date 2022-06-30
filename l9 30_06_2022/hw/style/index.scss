@@ -1,0 +1,9 @@
+.my-hover {
+  transition: background-color 1s;
+  &:hover {
+    background-color: chocolate;
+  }
+}
+.text-color-red {
+  color: red;
+}
