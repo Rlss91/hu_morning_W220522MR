@@ -1,0 +1,14 @@
+.text-effects {
+  color: brown;
+  /*
+    if 1+1=2 
+      then brown
+      else black
+  */
+  background-color: brown;
+  border: #000000 solid 1px;
+  transition: background-color 2s;
+}
+.text-effects:hover {
+  background-color: white;
+}/*# sourceMappingURL=index.css.map */

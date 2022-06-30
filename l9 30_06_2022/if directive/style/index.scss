@@ -1,0 +1,17 @@
+$mod: gray;
+
+.text-effects {
+  @if $mod == green {
+    color: #000;
+  } @else if $mod == chocolate {
+    color: aqua;
+  } @else {
+    color: #fff;
+  }
+  background-color: brown;
+  border: #000000 solid 1px;
+  transition: background-color 2s;
+  &:hover {
+    background-color: white;
+  }
+}
