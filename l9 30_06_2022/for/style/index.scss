@@ -1,0 +1,12 @@
+@for $i from 1 through 5 {
+  /*
+        .d1{}
+        .d2{}
+        ...
+        .d5{}
+    */
+  .d#{$i} {
+    background-color: rgb(54, 177, $i * 51);
+    padding-left: $i * 10px;
+  }
+}
