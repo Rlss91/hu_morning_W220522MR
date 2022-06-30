@@ -1,0 +1,5 @@
+@each $animals in dog, snake, cats, dolphine, whale, elephant, cow {
+  .d_#{$animals} {
+    color: darksalmon;
+  }
+}
