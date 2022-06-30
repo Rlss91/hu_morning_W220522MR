@@ -1,5 +1,5 @@
-@each $animals in dog, snake, cats, dolphine, whale, elephant, cow {
-  .d_#{$animals} {
-    color: darksalmon;
+@each $food, $color in (avatih, #0f0), (lazaniya, rgb(255, 0, 0)) {
+  .d2_#{$food} {
+    background-color: $color;
   }
 }
