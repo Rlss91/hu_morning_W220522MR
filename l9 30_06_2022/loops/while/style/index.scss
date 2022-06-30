@@ -1,0 +1,7 @@
+$i: 50;
+@while $i >= 10 {
+  .d_#{$i} {
+    padding-left: 10px * $i;
+  }
+  $i: $i - 10;
+}
