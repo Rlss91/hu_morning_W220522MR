@@ -1,0 +1,11 @@
+.nav-bg-green {
+  background-color: green;
+  div {
+    a {
+      color: cornflowerblue !important;
+      &:hover {
+        background-color: chocolate;
+      }
+    }
+  }
+}

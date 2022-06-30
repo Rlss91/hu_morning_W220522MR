@@ -1,0 +1,27 @@
+$primary-color: #e3fdfd;
+$bg-color: #71c9ce;
+
+.title {
+  background-color: $primary-color;
+}
+.sub-title {
+  background-color: $primary-color;
+}
+.op-div {
+  background-color: $bg-color;
+  width: 30px - 15px;
+}
+.btn {
+  background-color: $primary-color;
+  font-size: 10rem;
+  &:hover {
+    background-color: $bg-color;
+  }
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 100%;
+  }
+}

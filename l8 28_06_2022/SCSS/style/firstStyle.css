@@ -1,0 +1,28 @@
+.title {
+  background-color: #e3fdfd;
+}
+
+.sub-title {
+  background-color: #e3fdfd;
+}
+
+.op-div {
+  background-color: #71c9ce;
+  width: 15px;
+}
+
+.btn {
+  background-color: #e3fdfd;
+  font-size: 10rem;
+}
+.btn:hover {
+  background-color: #71c9ce;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.wrapper img {
+  width: 100%;
+}/*# sourceMappingURL=firstStyle.css.map */
