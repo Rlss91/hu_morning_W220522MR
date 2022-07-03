@@ -1,0 +1,39 @@
+.d1:hover {
+  background-color: rgba(25, 230, 255, 0.1);
+}
+
+.d2:hover {
+  background-color: rgba(50, 205, 255, 0.2);
+}
+
+.d3:hover {
+  background-color: rgba(75, 180, 255, 0.3);
+}
+
+.d4:hover {
+  background-color: rgba(100, 155, 255, 0.4);
+}
+
+.d5:hover {
+  background-color: rgba(125, 130, 255, 0.5);
+}
+
+.d6:hover {
+  background-color: rgba(150, 105, 255, 0.6);
+}
+
+.d7:hover {
+  background-color: rgba(175, 80, 255, 0.7);
+}
+
+.d8:hover {
+  background-color: rgba(200, 55, 255, 0.8);
+}
+
+.d9:hover {
+  background-color: rgba(225, 30, 255, 0.9);
+}
+
+.d10:hover {
+  background-color: rgb(250, 5, 255);
+}/*# sourceMappingURL=index.css.map */

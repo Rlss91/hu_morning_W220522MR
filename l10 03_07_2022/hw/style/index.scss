@@ -1,0 +1,5 @@
+@for $i from 1 through 10 {
+  .d#{$i}:hover {
+    background-color: rgba($i * 25, 255 - $i * 25, 255, $i/10);
+  }
+}

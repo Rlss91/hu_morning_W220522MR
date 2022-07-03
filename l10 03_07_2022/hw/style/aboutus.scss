@@ -1,0 +1,8 @@
+@each $animals, $color, $apple in (dog, #f00, 1rem), (cat, #ff0, 2rem),
+  (zebra, #f0f, 3rem), (irafa, #0f0, 4rem)
+{
+  .d#{$animals} {
+    background-color: $color;
+    font-size: $apple;
+  }
+}

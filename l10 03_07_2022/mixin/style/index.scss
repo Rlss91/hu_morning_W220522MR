@@ -1,0 +1,14 @@
+@mixin div_border($color, $border_radius: 0.3rem) {
+  border: 3px solid $color;
+  border-radius: $border_radius;
+}
+
+.d1 {
+  @include div_border($color: #f00, $border_radius: 5rem);
+}
+.d2 {
+  @include div_border($color: #ff0);
+}
+.d3 {
+  @include div_border($color: #0f0);
+}
