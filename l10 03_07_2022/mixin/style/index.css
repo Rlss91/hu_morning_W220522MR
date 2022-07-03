@@ -1,14 +1,26 @@
 .d1 {
   border: 3px solid #f00;
   border-radius: 5rem;
+  background-color: #0ff;
+  color: #f0f;
 }
 
 .d2 {
   border: 3px solid #ff0;
   border-radius: 0.3rem;
+  background-color: rgb(52, 78, 56);
+  color: rgb(57, 165, 64);
 }
 
 .d3 {
   border: 3px solid #0f0;
   border-radius: 0.3rem;
+  background-color: rgb(202, 180, 132);
+  color: rgb(96, 72, 175);
+}
+
+.d4 {
+  border: 3px solid #0f0;
+  border-radius: 0.3rem;
+  padding: 10px;
 }/*# sourceMappingURL=index.css.map */

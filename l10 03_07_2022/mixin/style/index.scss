@@ -3,12 +3,30 @@
   border-radius: $border_radius;
 }
 
+@mixin bg_and_c_changer($bgcolor, $color) {
+  background-color: $bgcolor;
+  color: $color;
+}
+
 .d1 {
   @include div_border($color: #f00, $border_radius: 5rem);
+  @include bg_and_c_changer($bgcolor: #0ff, $color: #f0f);
 }
 .d2 {
   @include div_border($color: #ff0);
+  @include bg_and_c_changer(
+    $bgcolor: rgb(52, 78, 56),
+    $color: rgb(57, 165, 64)
+  );
 }
 .d3 {
   @include div_border($color: #0f0);
+  @include bg_and_c_changer(
+    $bgcolor: rgb(202, 180, 132),
+    $color: rgb(96, 72, 175)
+  );
+}
+.d4 {
+  @include div_border($color: #0f0);
+  padding: random($limit: 100) + px;
 }

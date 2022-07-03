@@ -1,0 +1,16 @@
+@mixin randomColor {
+  $random_number: random(
+    $limit: 600,
+  );
+  @if $random_number > 500 {
+    background-color: green;
+  } @else if $random_number >= 100 and $random_number <= 500 {
+    background-color: blue;
+  } @else {
+    background-color: red;
+  }
+}
+
+.d1 {
+  @include randomColor;
+}
