@@ -1,0 +1,38 @@
+img {
+  height: 100%;
+}
+
+.big-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 50%;
+  .lvl_odd {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 1rem;
+    column-gap: 1rem;
+  }
+  .lvl_even {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 1rem;
+  }
+}
+
+.hover-effect {
+  position: relative;
+  &:hover span {
+    background-color: coral;
+  }
+  span {
+    position: absolute;
+    bottom: 0;
+    // padding: 1rem;
+    width: 100.3%;
+    background-color: rgba(bisque, 0.5);
+    font-size: 3rem;
+    transition: background-color 1s;
+  }
+}
